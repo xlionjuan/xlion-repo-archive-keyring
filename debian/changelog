@@ -1,3 +1,10 @@
+xlion-repo-archive-keyring (1.0.1) main; urgency=medium
+
+  * Initial release, only current key included.
+  * Downgrade softprops/action-gh-release to v2.2.2
+
+ -- Shihfu Juan <xlion@xlion.tw>  Tue, 10 Jun 2025 22:17:01 +0800
+
 xlion-repo-archive-keyring (1.0) main; urgency=medium
 
   * Initial release, only current key included.
