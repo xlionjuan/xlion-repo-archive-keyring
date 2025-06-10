@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "enabledManagers": ["github-actions"],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["pin", "digest", "pinDigest","major", "minor", "patch"],
+      "labels": ["dependencies"]
+    },
+    {
+      "matchPackageNames": ["actions/checkout"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "ignoreTests": true,
+      "automerge": true,
+      "labels": ["dependencies"]
+    },
+    {
+      "matchPackageNames": ["actions/attest"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "ignoreTests": true,
+      "automerge": true,
+      "labels": ["dependencies"]
+    }
+  ]
+}
