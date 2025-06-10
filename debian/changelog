@@ -1,3 +1,9 @@
+xlion-repo-archive-keyring (1.1) main; urgency=medium
+
+  * Set current key expiration to 2027-06-10
+
+ -- Shihfu Juan <xlion@xlion.tw>  Wed, 11 Jun 2025 03:10:22 +0800
+
 xlion-repo-archive-keyring (1.0.1) main; urgency=medium
 
   * Initial release, only current key included.
