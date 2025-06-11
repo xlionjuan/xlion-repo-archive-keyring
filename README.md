@@ -103,7 +103,7 @@ Run
 ./run.sh
 ```
 
-After done, manually unpack it and check if the `.gpg` file is putting at right place and right name.
+After done, manually unpack the `.deb` and check if the `.gpg` file is putting at right place and right name.
 
 ## GitHub Actions
 
