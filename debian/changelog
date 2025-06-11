@@ -1,3 +1,9 @@
+xlion-repo-archive-keyring (1.1.1) main; urgency=medium
+
+  * Update softprops/action-gh-release action to v2.3.2
+
+ -- Shihfu Juan <xlion@xlion.tw>  Wed, 11 Jun 2025 20:47:07 +0800
+
 xlion-repo-archive-keyring (1.1) main; urgency=medium
 
   * Set current key expiration to 2027-06-10
