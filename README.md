@@ -17,6 +17,21 @@ One line install command, `jq` is required.
 sudo apt-get update && sudo apt-get install -y jq && url=$(curl -s https://api.github.com/repos/xlionjuan/xlion-repo-archive-keyring/releases/latest | jq -r '.assets[] | select(.name | endswith(".deb")) | .browser_download_url') && tmpfile="/tmp/$(basename "$url")" && curl -L "$url" -o "$tmpfile" && sudo dpkg -i "$tmpfile"
 ```
 
+## Keys
+
+```text
+$ gpg --show-keys *
+
+pub   ed25519 2025-06-16 [SC] [expires: 2030-06-15]
+      3E32B16A4821C54B53A258F28EBA83B8784E3812
+uid                      XLion repo Signing Key 2025 (https://github.com/xlionjuan/xlion-repo-archive-keyring) <xlion-repo@xlion.tw>
+
+pub   rsa4096 2024-09-12 [SC] [expires: 2027-06-10]
+      1521F21900DB320195AFA3582BE833611FF60389
+uid                      XLion APT Repo Key <apt-repo@xlion.tw>
+sub   rsa4096 2024-09-12 [E] [expires: 2027-06-10]
+```
+
 ## Build
 
 ### Install deps
