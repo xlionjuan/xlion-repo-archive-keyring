@@ -47,3 +47,4 @@ jobs:
           if: github.ref_type == 'tag'
           with:
             files: "*.deb"
+            draft: true
