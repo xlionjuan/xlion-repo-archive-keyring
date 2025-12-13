@@ -2,3 +2,5 @@ export DEBFULLNAME="Shihfu Juan"
 export DEBEMAIL="xlion@xlion.tw"
 
 dch -i "Message.."
+
+Remember to change from 'UNRELEASED' to 'main'

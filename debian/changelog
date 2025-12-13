@@ -1,3 +1,17 @@
+xlion-repo-archive-keyring (1.2.1) main; urgency=medium
+
+  * No any actual content updated
+  * First immutable release: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/immutable-releases
+  * CI
+    * harden-runner
+    * Update actions/checkout action to v6.0.1 
+    * Update actions/attest action to v3
+    * Update step-security/harden-runner action to v2.14.0
+    * Update softprops/action-gh-release action to v2.5.0
+    * Default draft for release
+
+ -- Shihfu Juan <xlion@xlion.tw>  Sun, 14 Dec 2025 02:29:02 +0800
+
 xlion-repo-archive-keyring (1.2) main; urgency=medium
 
   * Add an GPG key for future use: 3E32B16A4821C54B53A258F28EBA83B8784E3812 (XLion repo Signing Key 2025)
