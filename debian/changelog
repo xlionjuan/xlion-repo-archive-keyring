@@ -1,4 +1,4 @@
-xlion-repo-archive-keyring (1.2) UNRELEASED; urgency=medium
+xlion-repo-archive-keyring (1.2) main; urgency=medium
 
   * Add an GPG key for future use: 3E32B16A4821C54B53A258F28EBA83B8784E3812 (XLion repo Signing Key 2025)
   * Update actions/attest action to v2.4.0
