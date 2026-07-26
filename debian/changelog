@@ -1,10 +1,16 @@
+xlion-repo-archive-keyring (1.2.2) main; urgency=medium
+
+  * Just a CI maintaince update
+
+ -- Shihfu Juan <xlion@xlion.tw>  Mon, 27 Jul 2026 01:51:14 +0800
+
 xlion-repo-archive-keyring (1.2.1) main; urgency=medium
 
   * No any actual content updated
   * First immutable release: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/immutable-releases
   * CI
     * harden-runner
-    * Update actions/checkout action to v6.0.1 
+    * Update actions/checkout action to v6.0.1
     * Update actions/attest action to v3
     * Update step-security/harden-runner action to v2.14.0
     * Update softprops/action-gh-release action to v2.5.0
