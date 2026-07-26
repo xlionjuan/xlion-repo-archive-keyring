@@ -35,7 +35,7 @@ jobs:
             bash run.sh
           
         - name: GitHub Attestations for binaries
-          uses: actions/attest@e59cbc1ad1ac2d59339667419eb8cdde6eb61e3d # v3.2.0
+          uses: actions/attest@f7c74d28b9d84cb8768d0b8ca14a4bac6ef463e6 # v4.2.0
           with:
             predicate-type: 'https://in-toto.io/attestation/release'
             predicate: '{}'
