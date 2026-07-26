@@ -1,26 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
-  "enabledManagers": ["github-actions"],
+  "extends": ["local>xlionjuan/renovatebot-presets"],
   "packageRules": [
     {
+      "description": "This repository has no PR CI. Automerge only minor and patch updates of actions/checkout without tests.",
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["pin", "digest", "pinDigest","major", "minor", "patch"],
-      "labels": ["dependencies"]
-    },
-    {
       "matchPackageNames": ["actions/checkout"],
       "matchUpdateTypes": ["minor", "patch"],
       "ignoreTests": true,
-      "automerge": true,
-      "labels": ["dependencies"]
+      "automerge": true
     },
     {
+      "description": "This repository has no PR CI. Automerge only minor and patch updates of actions/attest without tests.",
+      "matchManagers": ["github-actions"],
       "matchPackageNames": ["actions/attest"],
       "matchUpdateTypes": ["minor", "patch"],
       "ignoreTests": true,
-      "automerge": true,
-      "labels": ["dependencies"]
+      "automerge": true
     }
   ]
 }
